@@ -1,0 +1,114 @@
+<!DOCTYPE html> <html><head>
+        <title>04.2 DIVs DogBook</title>
+    <style>.header {
+    background: #3fff00;
+    padding-left: 16px;
+    color: black;
+}
+
+.main {
+    display: flex;
+    padding: 0;
+}
+
+.menu {
+    background: #6dfff7;
+    padding: 0 32px;
+    color:white;
+}
+
+.menu li {
+    list-style-type: none;
+    margin-bottom: 4px;
+}
+
+.menu li:before {
+    content: "";
+    display: inline-block;
+    background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/96533-200.png);
+    background-size: 100% 100%;
+    width: 16px;
+    height: 16px;
+    margin-right: 5600px;
+}
+
+.footer {
+    background: #f6ff00;
+    color:black;
+    font-size: 50px;
+    text-align: center;
+}
+
+div { font-family: sans-serif; }
+
+div h1,
+div h3 { font-family: "Comic Sans MS"; }
+
+body { margin: 0; }
+
+body > div { padding: 16px 0; }
+
+ul { padding: 0; }
+
+.park {
+    margin-left:16px;
+      background: #80a5ce;
+      color:white;
+      
+}
+
+.park .post {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 12px; 
+}
+.park .post img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right:16px;
+}</style></head>
+    <body>
+
+       <div class="header"><h1>DogBook™</h1>
+</div>
+     <div class="menu">   <h3>Menu</h3> 
+        
+        <ul>
+            <li>Doghouse</li>
+            <li>Treats</li>
+            <li>Fetch</li>
+            <li>Wag tail</li>
+            <li>Go for a walk</li>
+        </ul>
+ </div>
+        
+       <div class="park"> <h3>Park</h3>
+        <ul>
+            <li class="post">
+                <img src="http://bit.ly/2CZm2P1">
+                <p>Hello!</p>
+            </li>
+            <li class="post">
+                <img src="http://bit.ly/2AJVax9">
+                <p>Hi!</p>
+            </li>
+            <li class="post">
+                <img src="http://bit.ly/2ALOr5L">
+                <p>Lunch today?</p>
+            </li>
+            <li class="post">
+                <img src="http://bit.ly/2FkofCZ">
+                <p>What is up?</p>
+            </li>
+            <li class="post">
+                <img src="http://bit.ly/2CWmTR7">
+                <p>What do you think of bones?</p>
+            </li>
+        </ul>
+        </div>
+    <div class="footer">    <p>© DogBook 2018</p>
+</div>
+    
+
+</body></html>
